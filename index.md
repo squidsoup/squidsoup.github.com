@@ -14,10 +14,10 @@ tagline: Code, banjos, and divers Antipodean curiosities
 
 <div>
   <p>
-    Github: {% author.github %}
+    Github: {{ site.author.github }}
   </p>
   <p>
-    Twitter: {% author.twitter %}
+    Twitter: {{ site.author.twitter }}
   </p>
 </div>
 
