@@ -1,3 +1,7 @@
+#vim
+*.swp
+*.swo
+
 _site/*
 _theme_packages/*
 
