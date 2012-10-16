@@ -5,6 +5,13 @@ tagline: Code, banjos, and divers Antipodean curiosities
 ---
 {% include JB/setup %}
 
+<div class="sidebar">
+  <ul class="links">
+    <li><i class="icon-tags"></i> Github: <a href="http://github.com/{{ site.author.github }}">{{site.author.github}}</a></li>
+    <li><i class="icon-retweet"></i> Twitter: <a href="http://twitter.com/{{ site.author.twitter }}">{{ site.author.twitter }}</a></li>
+  </ul>
+</div>
+
 <h3>Recent Posts</h3>
 <ul class="posts">
   {% for post in site.posts %}
@@ -12,12 +19,4 @@ tagline: Code, banjos, and divers Antipodean curiosities
   {% endfor %}
 </ul>
 
-<div>
-  <p>
-    Github: {{ site.author.github }}
-  </p>
-  <p>
-    Twitter: {{ site.author.twitter }}
-  </p>
-</div>
 
