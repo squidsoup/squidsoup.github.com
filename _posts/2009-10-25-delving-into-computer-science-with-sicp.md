@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Delving into Computer Science with SICP"
-category: Lisp, Computer Science
-tags: [Lisp, CompSci]
+categories: [Lisp, Computer Science]
+tags: [Lisp, CompSci, Scheme, SICP]
 ---
 {% include JB/setup %}
 
