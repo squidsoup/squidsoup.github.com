@@ -31,7 +31,7 @@ end
 
 Unfortunately, the Oracle JDK isn't available be default in Ubuntu and must be installed from a PPA. Automated installation is also further complicated by the Oracle Java7 installer prompting for user acceptance of the license agreement.
 
-The following puppet file adds the webupd8 java ppa, authorises the ppa key, updates the apt package and key stores, and finally installs oracle-java7.
+The following puppet manifest adds the webupd8 java ppa, authorises the ppa key, updates the apt package and key stores, and finally installs oracle-java7.
 
 {% highlight puppet %}
 # default.pp - puppet provisioning
